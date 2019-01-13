@@ -44,4 +44,15 @@ python3 -m pip install jupyter
 ```
 3. The main code exists in `Navigation.ipynb`. This file contains two training methods, `dqn` for **VanillaDQN** and `doubledqn` for **Double DQN**. Call these methods to train the model from scratch. Or reload pretrained models provided in the `./checkpoints` directory using `load_state_dict` method.
 
+## Solution
+1. Two methods are implememted to solve this problem: **VanillaDQN** and **DoubleDQN**. Both of them use **experience replay** and **target networks** to improve training.
+2. Soft target network update is used to in VanillaDQN but it didn't turn out to be useful in DoubleDQN.
+
 ## Results
+![DQN Score](https://github.com/thedatamonk/Unity-Banana-Navigation/blob/master/plots/dqn_score.png)
+
+**Vanilla DQN** was able to solve the environment in approximately `1600` episodes. As is evident, after `450` episodes, the score did not improve much (it kept oscillating between `8` and `10`). After `1200` episodes, the score finally starts improving.
+
+![DoubleDQN Score](https://github.com/thedatamonk/Unity-Banana-Navigation/blob/master/plots/doubledqn_score.png)
+
+**Double DQN** was able to solve the environment in about `700` episodes, which is a great improvement over **VanillaDQN**. Also in this case, the score consistently improves for all episodes of training. 
