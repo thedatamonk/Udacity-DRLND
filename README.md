@@ -1,4 +1,4 @@
-# Udacity Deep Reinforcement learning Nanodegree (Undergoing)
+# Udacity Deep Reinforcement learning Nanodegree
 ## Problem statement
 **Project Navigation**: In this project, we have to train an agent to navigate (and collect bananas!) in a large, square world. This environment is provided by [Unity Machine Learning agents] (https://github.com/Unity-Technologies/ml-agents).
 
@@ -34,3 +34,14 @@ The task is **episodic**, and in order to solve the environment, your agent must
 1. Python 3.6
 2. Pytorch
 3. Unity ML-Agents
+
+## Running the code
+1. After installing all dependcies, clone this repository in your local system.
+2. Make sure you have **Jupyter** installed. To install Jupyter:
+```
+python3 -m pip install --upgrade pip
+python3 -m pip install jupyter
+```
+3. The main code exists in `Navigation.ipynb`. This file contains two training methods, `dqn` for **VanillaDQN** and `doubledqn` for **Double DQN**. Call these methods to train the model from scratch. Or reload pretrained models provided in the `./checkpoints` directory using `load_state_dict` method.
+
+## Results
