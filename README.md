@@ -51,8 +51,8 @@ python3 -m pip install jupyter
 ## Results
 ![DQN Score](https://github.com/thedatamonk/Unity-Banana-Navigation/blob/master/plots/dqn_score.png)
 
-**Vanilla DQN** was able to solve the environment in approximately `1600` episodes. As is evident, after `450` episodes, the score did not improve much (it kept oscillating between `8` and `10`). After `1200` episodes, the score finally starts improving.
+**Vanilla DQN** was able to solve the environment in approximately **1600** episodes. As is evident, after **450** episodes, the score did not improve much (it kept oscillating between **8** and **10**). After **1200** episodes, the score finally starts improving.
 
 ![DoubleDQN Score](https://github.com/thedatamonk/Unity-Banana-Navigation/blob/master/plots/doubledqn_score.png)
 
-**Double DQN** was able to solve the environment in about `700` episodes, which is a great improvement over **VanillaDQN**. Also in this case, the score consistently improves for all episodes of training. 
+**Double DQN** was able to solve the environment in about **700** episodes, which is a great improvement over **VanillaDQN**. Also in this case, the score consistently improves for all episodes of training. 
