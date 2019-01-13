@@ -4,7 +4,9 @@
 
 ![Unity Banana environment](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 
-**NOTE:** The environment provided by Udacity is similar to, but **not identical to** the Banana Collector environment on the [Unity ML-Agents Github page](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector). 
+**NOTE:**
+1. This project was completed in the Udacity Workspace, but the project can also be completed on a local Machine. Instructions on how to download and setup Unity ML environments can be found in [Unity ML-Agents Github repo](https://github.com/Unity-Technologies/ml-agents). 
+2. The environment provided by Udacity is similar to, but **not identical to** the Banana Collector environment on the [Unity ML-Agents Github page](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector). 
 
 ## Environment
 The **state space** has `37` dimensions each of which is a continuous variable. It includes the agent's velocity, along with ray-based perception of objects around the agent's forward direction.
@@ -28,18 +30,7 @@ The task is **episodic**, and in order to solve the environment, your agent must
  
  (*For AWS*) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), the please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-## Dependecies
+## Dependencies
 1. Python 3.6
 2. Pytorch
 3. Unity ML-Agents
-
-## Instructions to install the dependencies
-1. Python 3.6
- - Windows:
- - Linux:
- - Mac OSX:
-2. Pytorch
-3. Unity ML-agents
-
-## References
-Citations pending
